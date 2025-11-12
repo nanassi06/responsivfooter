@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details Page</title>
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/?size=100&id=XrEFnp33pJYw&format=png&color=000000"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./details_style.css" />
+  </head>
+  <body>
+    <div class="detail-container">
+      <div class="product-detail">
+        <div class="product-img">
+          <img
+            src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png"
+            alt="Product1"
+          />
+        </div>
+
+        <div class="product-info">
+          <h2 class="product-title">Backpack</h2>
+          <p class="product-description">
+            This backpack is an ideal companion for both everyday use and
+            travel, offering a perfect blend of functionality, durability, and
+            style. Crafted from high-quality, water-resistant materials, it’s
+            built to withstand the demands of daily commutes and long journeys.
+            Its thoughtfully designed layout includes multiple compartments,
+            such as a padded laptop sleeve, zippered pockets, and mesh
+            organizers, allowing you to keep your belongings neatly arranged and
+            easily accessible. Comfort is prioritized with ergonomic shoulder
+            straps and a breathable back panel that ensure ease of wear
+            throughout the day. Additional features like anti-theft zippers,
+            quick-access front pockets, and side water bottle holders enhance
+            its practicality, making it suitable for navigating busy airports or
+            exploring new cities.
+          </p>
+          <div class="quantity">
+            <label for="">Quantity:</label>
+            <input type="number" value="1" min="1" />
+          </div>
+          <p class="product-price">
+            <span class="label-price">Price:</span> <span class="original-price"> $100.99 </span> <span class="discount-price">$70.69</span>
+          </p>
+
+          <div class="btn">
+            <button class="btn-cart">
+              <i class="icon" data-lucide="shopping-cart"></i> Add to cart
+            </button>
+            <button class="btn-buy">
+              <i class="icon" data-lucide="circle-dollar-sign"></i> Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Connect to Lucide cdn-->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
