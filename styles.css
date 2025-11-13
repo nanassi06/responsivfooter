@@ -178,14 +178,7 @@ a{
     background-color: #1A0F2D;
 }
 
-.nav-list{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 100px;
-    list-style: none;
-    padding: 15px;
-    padding-left: 450px;
-}
+
 .foot-icon{
     width: 24px;
     height: 24px;
@@ -270,10 +263,15 @@ a{
     padding-left: 100px;
 } */
 .nav-footer, .mobile-nav, .nav-list{
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
 } 
 .nav-list{
-    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 100px;
+    list-style: none;
+    padding: 15px;
 }
 
 
