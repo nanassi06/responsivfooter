@@ -262,7 +262,7 @@ a{
 .nav-list{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 100px;
+    column-gap: 50px;
     list-style: none;
     padding: 15px;
 }
