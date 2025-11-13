@@ -178,6 +178,10 @@ a{
     background-color: #1A0F2D;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 64f8ebfdabe02ff56970ff7bc822118806e0edd9
 .foot-icon{
     width: 24px;
     height: 24px;
@@ -261,9 +265,22 @@ a{
     padding: 15px;
     padding-left: 100px;
 } */
+<<<<<<< HEAD
 
 .footer{
     margin-bottom: 100px;
+=======
+.nav-footer, .mobile-nav, .nav-list{
+    display: flex;
+    justify-content: center;
+} 
+.nav-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 100px;
+    list-style: none;
+    padding: 15px;
+>>>>>>> 64f8ebfdabe02ff56970ff7bc822118806e0edd9
 }
 .nav-footer, .mobile-nav{
     display: flex;
